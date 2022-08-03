@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfb2f4df-e841-453a-9b81-7ffa71846a26" name="Changes" comment="getUserInput Method complete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdoptionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdoptionRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,5 +116,16 @@
     <MESSAGE value="Load DogData Method complete" />
     <MESSAGE value="getUserInput Method complete" />
     <option name="LAST_COMMIT_MESSAGE" value="getUserInput Method complete" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AdoptionRequest.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

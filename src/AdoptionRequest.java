@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class AdoptionRequest {
     private static int userMinAge = -1;
-    private static final int userMaxAge = -1;
+    private static int userMaxAge = -1;
 
     public static void main(String[] args) {
 
@@ -66,7 +66,7 @@ public class AdoptionRequest {
         System.out.println("Please enter the maximum age you'd like to adopt: ");
         while (userMaxAge < userMinAge) {
             try {
-                userMinAge = keyboard.nextInt();
+                userMaxAge = keyboard.nextInt();
                 keyboard.nextLine();
             } catch (NumberFormatException e) {
                 System.out.println("Please enter a number greater than or equal to " + userMinAge + ": ");

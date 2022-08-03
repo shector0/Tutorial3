@@ -53,6 +53,48 @@ public class Dog {
     public int getAge() {
         return age;
     }
+
+    /**
+     * Check if dog breed is the same as another dog
+     * @param dog Dog object passed in to be compared
+     * @return boolean True if breeds are the same
+     */
+    public boolean sameBreed(Dog dog) {
+        return breed.equals(dog.getBreed());
+    }
+
+    /**
+     * Method to check wheter a dog is the same gender
+     * @param dog a dog object for comparison
+     * @return true if the dogs are the same gender
+     */
+    public boolean sameSex(Dog dog){
+        return sex==dog.getSex();
+    }
+
+    /**
+     * A method for determining wheter the dog's age falls within the acceptable age range
+     * @param min The minimum age of the dog
+     * @param max the maximum age of the dog
+     * @return true/false if the dog's age falls within the correct range
+     */
+    public boolean withinAgeRange(int min, int max){
+        return this.age >= min && this.age <= max;
+    }
+
+    /**
+     * A method for comparing the desexed status of two dog objects
+     * @param dog A dog object for comparison
+     * @return true/false if desexed status is the same
+     */
+    public boolean sameDesexed(Dog dog){
+        return this.deSexed == (dog.isDeSexed());
+    }
+
+
+
+
 }
+
 
 

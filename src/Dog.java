@@ -87,7 +87,7 @@ public class Dog {
      * @param dog A dog object for comparison
      * @return true/false if desexed status is the same
      */
-    public boolean sameDesexed(Dog dog){
+    public boolean sameDeSexed(Dog dog){
         return this.deSexed == (dog.isDeSexed());
     }
 

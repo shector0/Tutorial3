@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfb2f4df-e841-453a-9b81-7ffa71846a26" name="Changes" comment="Load DogData Method complete">
+    <list default="true" id="bfb2f4df-e841-453a-9b81-7ffa71846a26" name="Changes" comment="getUserInput Method complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AdoptionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdoptionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,20 @@
     &quot;last_opened_file_path&quot;: &quot;C:/projects/Tutorial3&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="AdoptionRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdoptionRequest" />
+      <module name="Tutorial3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AdoptionRequest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659530721791</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="getUserInput Method complete">
+      <created>1659531774344</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659531774344</updated>
+    </task>
+    <task id="LOCAL-00005" summary="getUserInput Method complete">
+      <created>1659531778894</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659531778894</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +116,7 @@
     <MESSAGE value="Tutorial 3 begins" />
     <MESSAGE value="Dog class completed" />
     <MESSAGE value="Load DogData Method complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Load DogData Method complete" />
+    <MESSAGE value="getUserInput Method complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="getUserInput Method complete" />
   </component>
 </project>

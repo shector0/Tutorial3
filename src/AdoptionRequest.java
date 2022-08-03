@@ -1,16 +1,52 @@
+import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Scanner;
 import java.util.Set;
 
 public class AdoptionRequest {
-
-    public static Dog getUserInput(){
+    private static int userMinAge = -1;
+    private static int userMaxAge = -1;
+    public static Dog getUserInput() {
         // preferred breed, sex, minimum age, maximum age, and de-sexed status, assigning values to appropriate variables.
-    }
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Please enter your preferred Dog breed: ");
+        String breed = keyboard.nextLine().toLowerCase();
+        System.out.println("Please enter your preferred sex (male/female): ");
+        String sexMaleFemale = keyboard.nextLine();
+        char sex;
+        if (sexMaleFemale.equalsIgnoreCase("male")) sex = 'M';
+        else sex = 'F';
+        System.out.println("Please enter the minimum age you'd like to adopt: ");
+        while (userMinAge == -1) {
+            try {
+                userMinAge = keyboard.nextInt();
+                keyboard.nextLine();
+            } catch (NumberFormatException e) {
+                System.out.println("Please enter a valid number: ");
+                System.exit(0);
+            }
+        }
+        System.out.println("Please enter the maximum age you'd like to adopt: ");
+        while (userMaxAge < userMinAge) {
+            try {
+                userMinAge = keyboard.nextInt();
+                keyboard.nextLine();
+            } catch (NumberFormatException e) {
+                System.out.println("Please enter a number greater than or equal to " + userMinAge + ": ");
+                System.exit(0);
+            }
 
+        }
+        System.out.println("Would you prefer the dog to be desexed?: (yes/no) ");
+        String desexedStatus = keyboard.nextLine();
+        boolean desexed = desexedStatus.equalsIgnoreCase("yes");
+
+        return new Dog("",0,breed,sex,0,desexed);
+    }
     public static Set<Dog> loadDogData(String filePath) {
 
         Set<Dog> allDOgs = new HashSet<>();

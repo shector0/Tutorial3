@@ -16,7 +16,7 @@ public class Dog {
      * @param deSexed desexed or not
      * @param age the dog age
      */
-    public Dog(String name, long microchipNumber, String breed, char sex, boolean deSexed, int age) {
+    public Dog(String name, long microchipNumber, String breed, char sex, int age, boolean deSexed) {
         this.name = name;
         this.microchipNumber = microchipNumber;
         this.breed = breed;
